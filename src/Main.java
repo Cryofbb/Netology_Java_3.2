@@ -3,13 +3,13 @@ public class Main {
         int balance = 0;
         int transfer = 999;
         int bonus = (transfer/100);
-        int total_balance;
+        int totalBalance;
         if (transfer >= 1000){
-            total_balance = balance + transfer + bonus;
+            totalBalance = balance + transfer + bonus;
         }
         else {
-            total_balance = balance + transfer;
+            totalBalance = balance + transfer;
         }
-        System.out.println("Текущий баланс: " + total_balance);
+        System.out.println("Текущий баланс: " + totalBalance);
     }
 }
